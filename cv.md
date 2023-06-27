@@ -16,3 +16,25 @@ Hello. I want to gain knowledge in web development and plan to be a full stack d
 * ___REACT___
 * ___REDUX-TOOLKIT___
 * ___REDUX-THUNK___
+
+
+## Code Example
+```
+const multiply = (a, b) => {
+  return a * b;
+}
+
+let result = multiply(7 * 7);
+alert( result );
+
+```
+
+
+## Education
+* ___Way-Up Platform___
+* ___FreeCodeCamp___
+* ___HTML Academy___
+
+
+## English
+* ___A2___ (keep learning)
