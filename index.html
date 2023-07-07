@@ -205,7 +205,7 @@
                    getCommonCharacterCount( s1, s2 ) {
                        let count = 0;
                        if (typeof s1 === 'string' && typeof s2 === 'string' ) {
-                           for (let i = 0; i < s1.length; i++) {
+                           for (let i = 0; i &lt; s1.length; i++) {
                              if ( s2.indexOf(s1[i] ) > -1 ) { 
                                  count++;
                                  s2 = s2.replace(s1[i],'');
@@ -258,6 +258,26 @@
         </div>
       </div>
     </main>
+
+    <footer>
+      <div class="footer">
+        <a class="footer__link" href="https://rs.school/" target="_blank">
+          <img
+            class="footer__link-rs"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rs"
+          />
+        </a>
+
+        <p>2023</p>
+        <a
+          class="link-social"
+          href="https://github.com/Dmitrii23748"
+          target="_blank"
+          ><i class="fab fa-github"></i>Dmitrii23748</a
+        >
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
