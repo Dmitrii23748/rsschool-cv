@@ -1,3 +1,90 @@
-h1 {
-    color: rgb(163, 82, 238);
+* {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
 }
+
+body {
+    background-color:#313131;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+.header {
+    max-width: 1152px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+
+.menu-burger{
+    display: none;
+}
+
+.open-close-menu {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    background-color: transparent;
+    background-image: url(images/menu_lines_hamburger_icon.svg);
+}
+
+.open-close-menu:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.header-business-card{
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    margin-right: 38px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 16px; 
+    margin-left: 60px;
+}
+
+.navigation ul li{
+    list-style: none;
+    padding: 4px;
+    margin: 0 10px;
+}
+
+.navigation ul li:hover{
+    background-color: #c3c0e2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color: #FFFFFF;
+}
+
+.link-social {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.link-social:hover {
+    color: #dfdfdf;
+}
+
